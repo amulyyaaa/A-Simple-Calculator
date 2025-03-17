@@ -1,12 +1,15 @@
 *{
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body{
   background-color: skyblue;
 }
+
+
+
 
 
 .container{
@@ -16,16 +19,19 @@ body{
   place-items: center;
 }
 
-.Calculator{
-  height:auto;
-  width:auto;
-  padding: 20px;
-  background-color:white;
+
+
+.calculator{
+  height: auto;
+  width: auto;
+  padding : 20px;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 30px black  ;
+  box-shadow: 0 0 30px black;
 }
 
-#Display{    /* # is used when we want to call the id name*/
+
+#display{
   height: 150px;
   width: auto;
   display: flex;
@@ -33,36 +39,40 @@ body{
   justify-content: flex-end;
   font-size: 30px;
   margin-bottom: 20px;
+
+
 }
 
-button{
+button {
   height: 60px;
   width: 60px;
   border: 0;
-  margin: 5px;
+  margin : 5px;
   font-size: 20px;
   cursor: pointer;
 }
 
-button#Is-equal-to{
+
+button#equal{
   height: 130px;
   background-color: darkgray;
-  color: black;
+  color :black
 }
 
-.Calculator button#Clear{
- background-color: crimson;
- color: white;
+
+
+.calculator button#clear{
+  background-color: crimson;
+  color : white
 }
 
-.Calculator button.Button-operator{
-  background-color: black;
+
+.calculator button.btn-operator{
+     background-color:black;
+     color: white;
+}
+
+.calculator button.btn-number{
+  background-color:black;
   color: white;
 }
-
-.Calculator button.Button-Number{
-  background-color: black;
-  color: white;
-}
-
-
